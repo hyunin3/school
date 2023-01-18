@@ -5,6 +5,17 @@
 
 
 words = ["round" , "dream", "magnet" , "tweet" , "tweet", "trick", "kiwi"]
-for idx in words
 
-print(idx+1)
+for idx in range(1, len(words)):
+    print(idx)
+    # 지금의 나
+
+#     if words[idx-1][-1] != words[idx][0]:
+#         print('실패', idx, words[idx])
+#         break
+
+#     elif words[idx] in words[:idx]:
+#         print('실패', idx, words[idx])
+#         break
+# else:
+#     print('성공')
