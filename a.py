@@ -1,10 +1,13 @@
-# A. 입력예시
-# print(de_identify('970103-1234567'))
-# print(de_identify('8611232345678'))
-
-# B. 출력예시
-# 970103*******
-# 861123******* 
-a,b = input().split('-')
-print(a+b)
-
+# collatz(6)  # => 8
+# collatz(16)  # => 4
+# collatz(27)  # => 111
+# collatz(626331)  # => -1
+num = int(input())
+def collatz(num):
+    for i in range(501):
+        if num % 2 == 0:
+            num / 2
+        elif num % 2 != 0:
+            num *3 + 1    
+        if num == 1    
+            
